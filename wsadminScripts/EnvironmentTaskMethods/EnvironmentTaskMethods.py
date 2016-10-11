@@ -89,13 +89,14 @@ import javax.xml.parsers.ParserConfigurationException
 #      - Create
 #      - Modify
 def environmentTasks(loggerDict,taskFile):
-  loggerDict["audit_Source_Msg"] = "environmentTasks - Function Entry"
-  print "logger Dict",loggerDict
+  loggerDict["audit_Sub_Msg"] = "environmentTasks - Function Entry"
+  loggerDict['audit_Sub_Msg'] = " "
+  loggerDict["log_Level"] = 3
   write_log(loggerDict)
-  taskFile = '/opt/ibm/WebSphere/changes/cr999/'+taskFile
-  if os.path.isfile(taskFile):
-    if taskFile.split('.',1)[-1] == 'json':
-      lineString = open(taskFile,'r').read()
+  taskPath = loggerDict["changeFolder"]+loggerDict["changeNumber"] + '/' + taskFile
+  if os.path.isfile(taskPath):
+    if taskPath.split('.',1)[-1] == 'json':
+      lineString = open(taskPath,'r').read()
       parsedJSON = JSONObject(lineString)
       i = 0
       while i < parsedJSON.get("EnvironmentTask").length():
@@ -117,16 +118,26 @@ def environmentTasks(loggerDict,taskFile):
         elif wasObjectType == "ExternalBundleRepository" : functionExternalBundleRepository(loggerDict,wasObjects)
         elif wasObjectType == "InternalBundleRepository" : functionInternalBundleRepository(loggerDict,wasObjects)
         else :
-          print "out"
+          loggerDict['audit_Sub_Msg'] = "Invalid EnvironmentTask entered = ",taskPath
+          loggerDict["log_Level"] = 3
+          write_log(loggerDict)
         i = i + 1
-    elif taskFile.split('.',1)[-1] == 'xml':
-      print "founnd xml =",taskFile
-    elif taskFile.split('.',1)[-1] == 'props':
-      print "founnd props =",taskFile
+    elif taskPath.split('.',1)[-1] == 'xml':
+      loggerDict['audit_Sub_Msg'] = "File type xml in progress = ",taskPath
+      loggerDict["log_Level"] = 3
+      write_log(loggerDict)
+    elif taskPath.split('.',1)[-1] == 'props':
+      loggerDict['audit_Sub_Msg'] = "File type props in progress = ",taskPath
+      loggerDict["log_Level"] = 3
+      write_log(loggerDict)
     else :
-      print "not found =",taskFile
+      loggerDict['audit_Sub_Msg'] = "File type not valid = ",taskPath
+      loggerDict["log_Level"] = 3
+      write_log(loggerDict)
   else :
-    print "File not found = ",taskFile
+	loggerDict['audit_Sub_Msg'] = "File not found = ",taskPath
+    loggerDict["log_Level"] = 3
+    write_log(loggerDict)
   return
 
 ######################################################################################################################
