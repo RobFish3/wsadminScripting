@@ -1,0 +1,156 @@
+{"EnvironmentTask":[
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Defaults"   },
+{"ObjectType":"HostAlias",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Defaults"   },
+{"ObjectType":"MimeEntry",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Defaults"   },
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Required"   },
+{"ObjectType":"HostAlias",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Required"   },
+{"ObjectType":"MimeEntry",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Required"   },
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Attributes"},
+{"ObjectType":"HostAlias",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Attributes"},
+{"ObjectType":"MimeEntry",  "Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"Attributes"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        },
+{"ObjectType":"HostAlias", "Scope":"Cell",  "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        },
+{"ObjectType":"MimeEntry", "Scope":"Cell",  "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        },
+
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myTestInsertChildToVirtualHost" },
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myTestInsertDuplicateChildToVirtualHost" },
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myTestMultipleHostAliasInsertion" },
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myTestMultipleMimeEntryInsertion" },
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myTestCreateAndDeleteVirtualHost" },
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myNewHostAlias",         "port":"850","name":"myTestInsertChildToVirtualHost" },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myNewRepeatHostAlias",   "port":"850","name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myNewRepeatHostAlias",   "port":"850","name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myNoVirtualHost",        "port":"850","name":"myTestInsertChildToNoHostAlias"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myMultipleHostAlias1",   "port":"850","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myMultipleHostAlias2",   "port":"850","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myMultipleHostAlias3",   "port":"850","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myMultipleHostAlias4",   "port":"850","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"myModifiableHostAlias4", "port":"850","name":"myTestMultipleHostAliasInsertion"},
+
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myNewHostAlias"          },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myNewRepeatHostAlias"    },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myNoVirtualHost"         },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myMultipleHostAlias1"    },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myMultipleHostAlias2"    },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myMultipleHostAlias3"    },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myMultipleHostAlias4"    },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myModifiableHostAlias4"  },
+
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Modify","ObjectName":"myModifiableHostAlias4","port":"852","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Modify","ObjectName":"myNoVirtualHostModify", "port":"852","name":"myTestInsertChildToNoVirtualHost"},
+
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myModifiableHostAlias4"  },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myNoVirtualHostModify"  },
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myNewMime",             "extensions":"myExt","name":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myNewRepeatMime",       "extensions":"myExt","name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myNewRepeatMime",       "extensions":"myExt","name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myNoVirtualHost",       "extensions":"myExt","name":"myTestInsertChildToNoMimeEntry"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myMultipleMimeEntry1",  "extensions":"myExt","name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myMultipleMimeEntry2",  "extensions":"myExt","name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myMultipleMimeEntry3",  "extensions":"myExt","name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myMultipleMimeEntry4",  "extensions":"myExt","name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Create","ObjectName":"audio/myModifiableMimeEntry4","extensions":"myExt","name":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myNewMime",            "name":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myNewRepeatMime",      "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myNewRepeatMime",      "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myNoVirtualHost",      "name":"myTestInsertChildToNoVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myMultipleMimeEntry1",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myMultipleMimeEntry2",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myMultipleMimeEntry3",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myMultipleMimeEntry4",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"audio/myModifiableMimeEntry4",      "name":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Modify","ObjectName":"audio/myModifiable4",        "extensions":"myNewext","name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Modify","ObjectName":"audio/myNoVirtualHostModify","extensions":"myext",   "name":"myTestInsertChildToNoVirtualHost"},
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ObjectName":"audio/myModifiable4","ListOutputFormat":"json",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"List","ObjectName":"audio/myNoVirtualHostModify","ListOutputFormat":"json","name":"myTestInsertChildToNoVirtualHost"},
+
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myNewHostAlias",        "name":"myTestInsertChildToVirtualHost" },
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myNewRepeatHostAlias",  "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myNewRepeatHostAlias",  "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myNoVirtualHost",       "name":"myTestInsertChildToNoHostAlias"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myMultipleHostAlias1",  "name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myMultipleHostAlias2",  "name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myMultipleHostAlias3",  "name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myMultipleHostAlias4",  "name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"HostAlias","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myModifiableHostAlias4","name":"myTestMultipleHostAliasInsertion"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myNewMime",            "name":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myNewRepeatMime",      "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myNewRepeatMime",      "name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myNoVirtualHost",      "name":"myTestInsertChildToNoMimeEntry"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myModifiable1",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myModifiable2",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myModifiable3",        "name":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myModifiable4",        "name":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+
+
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myMime","name":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myMime","name":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myMime","name":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"MimeEntry","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"audio/myMime","name":"myTestMultipleMimeEntryInsertion"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestCreateAndDeleteVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestInsertChildToNoHostAlias"},
+{"ObjectType":"VirtualHost","Scope":"Cell","ScopeName":"wascelldmgr01Cell01","Function":"Remove","ObjectName":"myTestInsertChildToNoMimeEntry"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestInsertDuplicateChildToVirtualHost"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleHostAliasInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestMultipleMimeEntryInsertion"},
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"myTestCreateAndDeleteVirtualHost"},
+
+{"ObjectType":"VirtualHost","Scope":"Cell", "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        },
+{"ObjectType":"HostAlias", "Scope":"Cell",  "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        },
+{"ObjectType":"MimeEntry", "Scope":"Cell",  "ScopeName":"wascelldmgr01Cell01","Function":"List","ListOutputFormat":"json","ObjectName":"All"        }
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
